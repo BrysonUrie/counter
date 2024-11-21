@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
   elapsed = (end.tv_sec - start.tv_sec) +
             (end.tv_nsec - start.tv_nsec) / 1000000000.0;
 
-  printf("Elapsed time: %.3f seconds\n", elapsed);
+  printf("Threshold: %d\tElapsed time: %.3f seconds\n", thresh, elapsed);
 
   return 0;
 }
